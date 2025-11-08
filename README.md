@@ -33,3 +33,16 @@ O sistema inclui:
   - [pgAdmin](https://www.pgadmin.org/) (Para SQL)
   - [BrModelo](https://www.sis4.com/) (para diagramas)
 
+> **Projeto desenvolvido conforme o padrão da Sociedade Brasileira de Computação (SBC)** para modelagem e implementação de bancos de dados relacionais.
+
+## Padrão SBC Seguido
+
+Este trabalho atende rigorosamente às diretrizes da **SBC** para disciplinas de Banco de Dados, incluindo:
+
+- **Modelagem Conceitual (MER)** em notação Chen com entidades, atributos e cardinalidades
+- **Modelagem Lógica (DER)** com chaves, tipos de dados e relacionamentos
+- **Implementação Física** em PostgreSQL com DDL, constraints e DML
+- **Normalização até a 3FN**
+- **Herança por tabela** (especialização: `pagamento → cartao → credito/debito`, `pix`)
+- **Consultas com propósito de negócio** (JOIN, GROUP BY, filtros temporais)
+
