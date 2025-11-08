@@ -15,11 +15,11 @@ O sistema inclui:
 ## 🗂️ Estrutura do Banco de Dados
 
 ### **Diagrama Entidade-Relacionamento (DER)**
-![DER - Modelo Conceitual](diagrama_conceitual.png)
+![DER - Modelo Conceitual]
 
 > *Diagrama conceitual mostrando entidades, relacionamentos e cardinalidades.*
 
-![DER - Modelo Lógico](diagrama_logico.png)
+![DER - Modelo Lógico]
 
 > *Diagrama lógico com chaves primárias, estrangeiras e tipos de dados.*
 
